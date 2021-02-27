@@ -1,4 +1,5 @@
-Buscador de Peliculas con React js .\
+Buscador de Peliculas con React js \
+
 API - The Movie Database API
 
 Deploy: https://d-buscador-peliculas.netlify.app/
