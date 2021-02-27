@@ -1,0 +1,37 @@
+.movie-search{
+    background-color:#5D6D7E;
+    text-align:center;
+    padding:15px 20px;
+}
+.form-search{
+    display:flex;
+    gap:5px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.movie-search h1{
+    margin-bottom:6px;
+    
+}
+.movie-search input{
+    padding:6px;
+    outline:none;
+    font-size:20px;
+    border:none;
+}
+.movie-search input[type="text"]{
+    width:300px;
+    box-sizing:border-box;
+    background-color:#D6DBDF;
+    margin-right:5px;
+}
+.movie-search input[type="submit"]{
+    cursor:pointer;
+    background-color:#ABB2B9;
+}
+.movie-search p{
+    transition:.5;
+    margin-top:8px;
+    font-weight:bold;
+    color:#D5DBDB;
+}
