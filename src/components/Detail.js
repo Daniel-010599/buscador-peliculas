@@ -4,11 +4,10 @@ import '../style/Detail.css';
 const Detail = () =>{
     const [movieDetail,setMovieDetail] = useState({});
 
-    const filepath = window.location.pathname;
-    const id = filepath.replace(/^.*[\\\/]/, '');
+    const id = window.location.pathname;
 
     useEffect(async ()=>{
-            fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=a9573f17301d308bb511bb7fd75183d8`)
+            fetch(`https://api.themoviedb.org/3/movie${id}?api_key=a9573f17301d308bb511bb7fd75183d8`)
             .then(res=>res.json())
             .then(result=>{
                 setMovieDetail(result);
