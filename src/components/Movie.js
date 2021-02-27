@@ -8,7 +8,7 @@ const Movie = (props) =>{
     }else
     return(
         <div className="movie" >
-            <Link to={`/buscador-peliculas/${props.movie.id}`} title={props.movie.original_title}>
+            <Link to={`/${props.movie.id}`} title={props.movie.original_title}>
                 <h2>{props.movie.original_title}</h2>
                 <div className="movie-img">
                     <img src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${props.movie.poster_path}`} alt={props.movie.original_title}/>

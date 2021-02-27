@@ -26,11 +26,11 @@ const App = () => {
     <div>
       <Router>
         <Switch>
-          <Route path='/buscador-peliculas' exact>
+          <Route path='/' exact>
             <MovieSearch showMovies={showMovies} saveMovies={saveMovies}/>
             {used?showMovies():''}
           </Route>
-          <Route path='/buscador-peliculas/:id'>
+          <Route path='/:id'>
             <Detail/>
           </Route>
         </Switch>
